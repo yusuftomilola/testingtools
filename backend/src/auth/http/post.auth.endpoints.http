@@ -1,0 +1,18 @@
+// CREATE A NEW USER
+POST http://localhost:3001/auth/register 
+Content-Type: application/json
+
+{
+    "name": "Yusuf",
+    "email": "faladeyusuf54@gmail.com",
+    "password": "dhjfbweukfhr76378r3"
+}
+
+// LOGIN
+POST http://localhost:3001/auth/login
+Content-Type: application/json
+
+{
+    "email": "faladeyusuf54@gmail.com",
+    "password": "dhjfbweukfhr76378r3"
+}
